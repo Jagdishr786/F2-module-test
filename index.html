@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <!--following figma formate which why had to take out the div at the top for heading of student portal-->
+    <div class="child">
+        <div class="childone"> Student portal</div>
+
+        <div class="parent">
+
+            <!--using input tag and button to make search bar and button to add fucntion later in javascript -->
+            <input type="text" class="bar" id="myInput" placeholder="search">
+            <button class="button" id="searchbtn" placeholder="search">search</button>
+            <br>
+
+            <!--making of buttons that are going to use for sording through the jason data-->
+            <button id="sortAtoZ">Sort A->Z</button>
+            <button id="sortZtoA">Sort Z->A</button>
+            <button id="sortMarks">Sort by marks</button>
+            <button id="sortPassing">Sort passing</button>
+            <button id="sortClass">Sort class</button>
+            <button id="sortGender">Sort gender</button>
+
+
+            <!--added horizontal bar to support for the table in form of heading -->
+            <div class="divtwo">
+                <div>ID</div>
+                <div>NAME</div>
+                <div>GENDER</div>
+                <div>CLASS</div>
+                <div>MARKS</div>
+                <div>PASSING</div>
+                <div>EMAIL</div>
+            </div>
+
+
+            <!--cunfused as don't know the how to add the jason to html so followed the process thaught in lecture -->
+            <table class="table2" id="students" border="1"><br>
+
+
+            </table>
+
+        </div>
+
+        </script>
+        <script src="./script.js"></script>
+</body>
+
+</html>
